@@ -1,8 +1,7 @@
 public class first{
     public static void main(String[] args) {
-        double a = 5.5;
-        float b = 5.2f;
-        a = b;
+        int a = 2;
+        a += 10;
         System.out.println(a);
     }
 }
