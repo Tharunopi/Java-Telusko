@@ -16,15 +16,17 @@ public class looping_statement {
         //     System.out.println("hi " + n);
         //     n++;
         // }while (n<=10);
+
+
         for(int i=1;i<=5;i++){                           //for loop
             System.out.println("Day " + i);
             for(int j=1;j<=9;j++){
                 int k = (j+8);
                 if(k>12){
                     k = k - 12;
-                    System.out.println(k + " pm");
+                    System.out.println(k + " pm - " + (k+1) + "pm");
                 }else{
-                    System.out.println(k + " am");
+                    System.out.println(k + " am - "+ (k+1) + "am");
                 }
             }
         }                                           
