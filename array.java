@@ -1,6 +1,6 @@
 public class array {
     public static void main(String[] args) {
-        int num[] = {1, 2, 3, 4};
-        System.out.println(num);
+        int num[] = {20, 30, 93, 75};
+        System.out.println(num[0]);
     }
 }
